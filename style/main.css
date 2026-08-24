@@ -326,10 +326,12 @@ body {
 }
 
 .profile-picture {
-  width: clamp(150px, 35vw, 280px);
-  height: clamp(150px, 35vw, 280px);
-  object-fit: cover;
-  border-radius: 50%;
+  width: auto;
+  height: auto;
+  max-width: min(90vw, 500px);
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 12px;
   display: block;
   border: 3px solid rgba(128, 128, 128, 0.15);
 }
@@ -449,8 +451,10 @@ body {
   }
 
   .profile-picture {
-    width: clamp(100px, 25vw, 180px);
-    height: clamp(100px, 25vw, 180px);
+    width: auto;
+    height: auto;
+    max-width: 90vw;
+    max-height: 50vh;
   }
 
   .wish-hbd {
