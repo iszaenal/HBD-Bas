@@ -27,7 +27,7 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
+  name: "Bas Sebas",
   photo: "./img/irene.jpg",       // Place your photo in the img/ folder
   music: "./music/hbd.mp4",      // Place your music in the music/ folder
 
